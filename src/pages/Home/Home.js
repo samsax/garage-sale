@@ -25,8 +25,8 @@ function Home() {
   const filteredProducts = useMemo(() => products.filter((product) => {
     const isAvailable = availabilityFilter === 'all'
       || (availabilityFilter === 'available'
-        ? (product.fields.status === 'available') || (product.fields.status === 'unavailable')
-        : product.fields.status === availabilityFilter);
+        ? (product.fields.available === 'available') || (product.fields.available === 'unavailable')
+        : product.fields.available === availabilityFilter);
 
     const isInCategories = categoriesFilter.length === 0
       || categoriesFilter.some((category) => product.fields.categories.includes(category));

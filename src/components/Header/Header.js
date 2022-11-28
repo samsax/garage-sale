@@ -31,18 +31,11 @@ function Header() {
   return (
     <header className="header">
       <div className="header__container container">
-        <div className="header__content">
-          <h1 className="header__title">
-            La tiendita
-            {' '}
-            <br />
-            {' '}
-            de Mango
-          </h1>
-          <button type="button" className="header__cta" onClick={scrollToProducts}>Ver productos</button>
-        </div>
+        {/* <div className="header__content">
+        </div> */}
         <div className="header__image-container">
-          <img className="header__image" onMouseEnter={(e) => animateHeader(e)} onMouseLeave={(e) => animateHeader(e)} src={headerImg} alt="Mango's face" />
+          <img className="header__image" onMouseEnter={(e) => animateHeader(e)} onMouseLeave={(e) => animateHeader(e)} src={headerImg} alt="Ancestra logo" />
+          <button type="button" className="header__cta" onClick={scrollToProducts}>Ver productos</button>
         </div>
       </div>
     </header>
