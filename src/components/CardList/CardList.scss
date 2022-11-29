@@ -1,0 +1,35 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: auto;
+  padding: 2rem;
+
+  @include sm-up {
+    gap: 1rem;
+  }
+
+  @include md-up {
+    gap: 1.5rem;
+  }
+
+  .card {
+    flex-basis: 100%;
+
+    @include sm-up {
+      flex-basis: 50%;
+    }
+
+    @include md-up {
+      flex-basis: calc(100% / 3);
+    }
+
+    @include lg-up {
+      flex-basis: 25%;
+    }
+  }
+}
