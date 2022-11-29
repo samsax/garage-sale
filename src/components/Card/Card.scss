@@ -1,0 +1,99 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.card {
+  $this: &;
+
+  background-color: $white;
+  max-width: 16rem;
+  padding-top: 16rem;
+  position: relative;
+  overflow: hidden;
+
+  &--unavailable {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    background-color: $light-cornflower-blue;
+    bottom: 0;
+    color: $dark-blue;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    padding: 1rem 1rem 5rem;
+    position: absolute;
+    text-align: left;
+    transform: translateY(100%);
+    transition: transform ease 0.3s;
+    width: 100%;
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 4px $dark-blue;
+
+    #{$this}__content {
+      transform: translateY(0);
+    }
+  }
+
+  &__image {
+    height: 16rem;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    &--empty {
+      align-items: center;
+      background:
+        repeating-linear-gradient(
+          45deg,
+          rgba($light-cornflower-blue, 0.4),
+          rgba($light-cornflower-blue, 0.4) 1rem,
+          $white 1rem,
+          $white 2rem
+        );
+      color: $dark-blue;
+      display: flex;
+      font-size: 1.5rem;
+      justify-content: center;
+      padding: 2rem;
+    }
+  }
+
+  &__category {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  &__name {
+    margin-top: 0.25rem;
+    font-size: 20px;
+  }
+
+  &__price {
+    margin-top: 0.5rem;
+  }
+
+  &__wa {
+    border: 1px solid $dark-blue;
+    bottom: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: 1rem;
+    text-transform: uppercase;
+    transition: all ease 0.3s;
+
+    &:hover {
+      background-color: $dark-blue;
+      color: $light-cornflower-blue;
+    }
+  }
+}
