@@ -1,32 +1,31 @@
 import './Footer.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebook,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
     <footer className="footer">
-      <span className="footer__icon">🍃</span>
       <p>
-        Creado por
-        {' '}
-        <a
-          className="footer__anchor"
-          href="https://github.com/ManuCastrillonM"
-          rel="noopener noreferrer"
-        >
-          Manu
-        </a>
-        {' '}
-        y
-        {' '}
-        <a
-          className="footer__anchor"
-          href="https://github.com/svargaslondono"
-          rel="noopener noreferrer"
-        >
-          Sebas
-        </a>
-        {' '}
+        Ancestra
       </p>
-      <span className="footer__icon">🍃</span>
+      <a
+        href="https://www.facebook.com/ancestra3/"
+        className="facebook social"
+      >
+        <FontAwesomeIcon icon={faFacebook} size="2x" />
+      </a>
+      <a
+        href="https://www.instagram.com/ancestra.co"
+        className="instagram social"
+      >
+        <FontAwesomeIcon
+          icon={faInstagram}
+          size="2x"
+        />
+      </a>
     </footer>
   );
 }
