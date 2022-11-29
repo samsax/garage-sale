@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/garage-sale/static/css/main.cc0d747f.css",
-    "main.js": "/garage-sale/static/js/main.1c68ae95.js",
-    "static/js/496.74cb4200.chunk.js": "/garage-sale/static/js/496.74cb4200.chunk.js",
-    "static/media/header-image.png": "/garage-sale/static/media/header-image.082dd262049649e0c9b9.png",
-    "static/media/header_background.svg": "/garage-sale/static/media/header_background.cab96abc35c82eb1bed7.svg",
-    "static/media/shopping-cart.svg": "/garage-sale/static/media/shopping-cart.c919814d80c5d67a6ebd1bf6e6136f87.svg",
-    "static/media/whatsapp.svg": "/garage-sale/static/media/whatsapp.a7b1ba1f5ba59535ae43f017d5b00ecf.svg",
-    "index.html": "/garage-sale/index.html",
-    "main.cc0d747f.css.map": "/garage-sale/static/css/main.cc0d747f.css.map",
-    "main.1c68ae95.js.map": "/garage-sale/static/js/main.1c68ae95.js.map",
-    "496.74cb4200.chunk.js.map": "/garage-sale/static/js/496.74cb4200.chunk.js.map"
+    "main.css": "/static/css/main.2a1be1ec.css",
+    "main.js": "/static/js/main.745fa4c7.js",
+    "static/js/496.74cb4200.chunk.js": "/static/js/496.74cb4200.chunk.js",
+    "static/media/header-image.png": "/static/media/header-image.082dd262049649e0c9b9.png",
+    "static/media/header_background.svg": "/static/media/header_background.cab96abc35c82eb1bed7.svg",
+    "static/media/shopping-cart.svg": "/static/media/shopping-cart.c919814d80c5d67a6ebd1bf6e6136f87.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.a7b1ba1f5ba59535ae43f017d5b00ecf.svg",
+    "index.html": "/index.html",
+    "main.2a1be1ec.css.map": "/static/css/main.2a1be1ec.css.map",
+    "main.745fa4c7.js.map": "/static/js/main.745fa4c7.js.map",
+    "496.74cb4200.chunk.js.map": "/static/js/496.74cb4200.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc0d747f.css",
-    "static/js/main.1c68ae95.js"
+    "static/css/main.2a1be1ec.css",
+    "static/js/main.745fa4c7.js"
   ]
 }
